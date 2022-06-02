@@ -14,6 +14,9 @@ function Timeline() {
         <TweetBox/>
         {/* Post */}
         <Post />
+        <Post />
+        <Post />
+        <Post />
     </div>
   )
 }
