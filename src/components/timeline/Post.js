@@ -23,7 +23,7 @@ function Post() {
                     <p>Test now</p>
                 </div>
             </div>
-            <img src="https://source.unsplash.com/random" />
+            <img src="https://source.unsplash.com/random" alt='various' />
             <div className='post-footer'>
                 <ChatBubbleOutline fontSize='small'/>
                 <Repeat fontSize='small' />
