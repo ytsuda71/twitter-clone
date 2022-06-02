@@ -14,8 +14,8 @@
     margin-bottom: 20px;
 }
 
-.sidebar_tweet {
-    background-color: var(--twitter-color);
+.sidebar_tweet{
+    background-color: var(--twitter-color) !important;
     color: white !important;
     font-weight: 900 !important;
     border: none !important;
