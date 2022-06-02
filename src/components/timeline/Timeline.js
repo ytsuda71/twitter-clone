@@ -13,10 +13,14 @@ function Timeline() {
         {/* TweetBox */}
         <TweetBox/>
         {/* Post */}
-        <Post />
-        <Post />
-        <Post />
-        <Post />
+        <Post 
+          displayName="displayName" 
+          username="userName" 
+          verified={true} 
+          tweet="First tweet"
+          avatar="https://joeschmoe.io/api/v1/random"
+          image="https://source.unsplash.com/random"
+          />
     </div>
   )
 }
