@@ -1,7 +1,7 @@
 import { Avatar, Button } from "@mui/material";
 import React, { useState } from "react";
 import "./TweetBox.css";
-import { collection, addDoc } from "firebase/firestore";
+import { collection, addDoc, serverTimestamp } from "firebase/firestore";
 import db from "../../firebase";
 
 function TweetBox() {
@@ -17,6 +17,7 @@ function TweetBox() {
       tweet: tweetMessage,
       avatar: "https://joeschmoe.io/api/v1/random",
       image: tweetImage,
+      timestamp: serverTimestamp(),
     });
     setTweetMessage("");
     setTweetImage("");
